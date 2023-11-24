@@ -1,0 +1,40 @@
+{
+  "name": "saltcorn-tblprov-ldap",
+  "version": "1.0.0",
+  "description": "Saltcorn plugin: Table provider for LDAP protocol",
+  "main": "index.js",
+  "engines": {
+    "node": ">=16.13.2"
+  },
+  "scripts": {
+    "test": "node --check index.js ldap-table-provider.js && npx eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pyhedgehog/saltcorn-tblprov-ldap.git"
+  },
+  "keywords": [
+    "saltcorn",
+    "plugin",
+    "table",
+    "provider",
+    "ldap"
+  ],
+  "author": "Michael P. Dubner",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pyhedgehog/saltcorn-tblprov-ldap/issues"
+  },
+  "homepage": "https://github.com/pyhedgehog/saltcorn-tblprov-ldap#readme",
+  "dependencies": {
+    "@saltcorn/data": "^0.9.0",
+    "ldapjs-promise": "^3.0.5"
+  },
+  "devDependencies": {
+    "eslint": "^8.54.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-import": "^2.29.0",
+    "eslint-plugin-n": "^16.3.1",
+    "eslint-plugin-promise": "^6.1.1"
+  }
+}
